@@ -16,7 +16,7 @@ app.component('review-list', {
             <br />
             <p>
                 {{review.name}} 
-                <span v-if="review.recommend">recommended this!<span>
+                <span v-if="review.recommend">recommended this!</span>
                 <span v-else> did not recommend this</span>
             </p>
             "{{review.review}}"</li>
